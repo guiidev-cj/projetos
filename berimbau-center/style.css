@@ -1,0 +1,90 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    counter-reset: item;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(231, 213, 112, 0.473);
+}
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: brown;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.678) ;
+}
+
+#logo {
+    width: 60px;
+}
+
+header p {
+    color: white;
+    font-weight: bolder;
+    margin: 3px;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+header a:hover{
+    background-color: white;
+    color: brown;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+}
+
+ol {
+    display: inline-flex;
+    background-color: rgb(202, 55, 55);
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+/* rodape de anuncios */
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+main img{
+    width: 100%;
+    max-width: 700px;
+}
+/* Conteudo */
+section {
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -3px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#container{
+    display: inline-flex;
+    text-align: justify;
+}
+.rows {
+    width: 200px;
+    margin: 10px;
+}
+/* rodape */
+footer {
+    background-color: brown;
+}
+
